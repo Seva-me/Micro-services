@@ -1,1 +1,1 @@
-# -School-ERP
+# ERP
