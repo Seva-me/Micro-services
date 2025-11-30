@@ -75,8 +75,169 @@ Important formatting instructions:
 
 services/
   auth-service/
+    src/
+      config/
+      controllers/
+      routes/
+      models/
+      services/
+      middlewares/
+      utils/
+      app.js
+      server.js
+    tests/
+    Dockerfile
+    .env.example
+    package.json
+    jest.config.js
+    README.md
 
+  catalog-service/
+    src/
+      config/
+      controllers/
+      routes/
+      models/
+      services/
+      middlewares/
+      utils/
+      app.js
+      server.js
+    tests/
+    Dockerfile
+    .env.example
+    package.json
+    jest.config.js
+    README.md
 
+  cart-service/
+    src/
+      config/
+      controllers/
+      routes/
+      models/
+      services/
+      middlewares/
+      utils/
+      app.js
+      server.js
+    tests/
+    Dockerfile
+    .env.example
+    package.json
+    jest.config.js
+    README.md
 
+  order-service/
+    src/
+      config/
+      controllers/
+      routes/
+      models/
+      services/
+      middlewares/
+      utils/
+      app.js
+      server.js
+    tests/
+    Dockerfile
+    .env.example
+    package.json
+    jest.config.js
+    README.md
 
+  payment-service/
+    src/
+      config/
+      controllers/
+      routes/
+      models/
+      services/
+      middlewares/
+      utils/
+      app.js
+      server.js
+    tests/
+    Dockerfile
+    .env.example
+    package.json
+    jest.config.js
+    README.md
 
+  notification-service/
+    src/
+      config/
+      controllers/
+      routes/
+      models/
+      services/
+      middlewares/
+      utils/
+      app.js
+      server.js
+    tests/
+    Dockerfile
+    .env.example
+    package.json
+    jest.config.js
+    README.md
+
+  inventory-service/
+    src/
+      config/
+      controllers/
+      routes/
+      models/
+      services/
+      middlewares/
+      utils/
+      app.js
+      server.js
+    tests/
+    Dockerfile
+    .env.example
+    package.json
+    jest.config.js
+    README.md
+gateway/
+  src/  
+    routes/
+    proxy.js
+    auth.js
+    app.js
+    server.js
+  Dockerfile
+  package.json
+libs/
+  logging/
+    logger.js 
+  http-client/
+    httpClient.js
+  auth/
+    jwtMiddleware.js
+    userContext.js
+  config/
+    configLoader.js
+  constants/
+    index.js
+infra/
+  k8s/
+    auth-service-deployment.yaml
+    catalog-service-deployment.yaml
+    cart-service-deployment.yaml
+    order-service-deployment.yaml
+    payment-service-deployment.yaml
+    notification-service-deployment.yaml
+    inventory-service-deployment.yaml
+    gateway-deployment.yaml
+  gateway-config/
+    nginx.conf
+  scripts/
+    deploy.sh
+docs/
+  architecture-diagram.png
+.gitignore
+README.md
+docker-compose.yml
+.github/workflows/
+  ci-cd-pipeline.yml
